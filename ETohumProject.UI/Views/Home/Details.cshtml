@@ -1,0 +1,15 @@
+﻿@model ETohumProject.DAL.Models.User
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.FirstName @Model.LastName</h2>
+<ul>
+    <li>ID: @Model.Id</li>
+    <li>First Name: @Model.FirstName </li>
+    <li>Last Name: @Model.LastName </li>
+    <li>Email: @Model.Email </li>
+</ul>
+
